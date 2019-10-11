@@ -1,0 +1,100 @@
+{
+  "id": "1347453",
+  "name": "iconfont",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "908569",
+      "name": "余额",
+      "font_class": "yue",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "1409622",
+      "name": "23通讯录",
+      "font_class": "txl",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "1977010",
+      "name": "搜索",
+      "font_class": "ss",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "2225233",
+      "name": "口碑",
+      "font_class": "kb",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "2871005",
+      "name": "登录",
+      "font_class": "denglu",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "4166140",
+      "name": "朋友",
+      "font_class": "py",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "6119266",
+      "name": "加号",
+      "font_class": "add",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "7466176",
+      "name": "泡泡",
+      "font_class": "pp",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "7843970",
+      "name": "账单",
+      "font_class": "zd",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "8574987",
+      "name": "支付宝",
+      "font_class": "zfb",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "8713844",
+      "name": "购物车 (点击态）",
+      "font_class": "shopping",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "8735457",
+      "name": "菜单",
+      "font_class": "menu",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "8874610",
+      "name": "进入",
+      "font_class": "jr",
+      "unicode": "e717",
+      "unicode_decimal": 59159
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,hr,td,input,textarea{
+	margin:0;
+	padding:0;
+}
+ul,ol,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    height: 100%;
+    font-family: "微软雅黑";
+}
+
+.dtHeader,.dtBanner,.dtActive,.k1,.imgBox1,.m2,.imgBox2,.dtFooter{
+    width: 100%;
+}
+
+/* header */
+.dtHeader{
+    height: 110px;
+    background: black;
+    border-top: 1px solid #363636;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.dtHeaderCon{
+    height: 100%;
+    width: 1000px;
+    margin: 0 auto;
+}
+/* nav */
+.dtNav{
+    width: 280px;
+    height: 100%;
+    float: left;
+    line-height: 110px;
+}
+.dtNav li{
+    float: left;
+}
+.dtNav li a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+.dtNav li a:hover{
+    opacity: 0.7;
+}
+.dtNav :first-child span{
+    font-size: 14px;
+    padding-right: 6px;
+} 
+.dtNav .navList2{
+    margin: 0 20px;
+}
+
+.downMenu{
+    width: 100%;
+    overflow: hidden;
+    background:#fff;
+    position: fixed;
+    left: 0;
+    top: 109px;
+    display: none;
+    opacity: 1;
+    z-index: 300;
+}
+.downMenuList{
+    width: 1050px;
+    margin: 0 auto;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.downMenuList li{
+    float: left;
+}
+.downMenuList b{
+    display: block;
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.downMenuList li p{
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.downMenuList li p a{
+    color: black;
+    text-decoration: none;
+}
+.braList,.clubList{
+    justify-content: center;
+}
+.braList li{
+    margin: 0 50px;
+}
+.clubList li{
+    margin: 0 50px;
+}
+/* .navList1:hover ~ .product{
+    display: block;
+    opacity: 1;
+}
+.navList2:hover ~ .brand{
+    display: block;
+    opacity: 1;
+}
+.navList3:hover ~ .club{
+    display: block;
+    opacity: 1;
+} */
+
+/* logo */
+.dtLogo{
+    float: left;
+    margin-left: 154px;
+}
+.dtLogo:hover{
+    opacity: 0.7;
+}
+/* denglu shopping */
+.ds{
+    width: 100px;
+    height: 100%;
+    float: right;
+    line-height: 110px;
+}
+.ds a{
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.ds a:hover{
+    opacity: 0.7;
+}
+.ds a span{
+    font-size: 18px;
+}
+.ds :first-child{
+    margin-right: 10px;
+}
+.ds :last-child .icon-shopping{
+    margin: 0;
+}
+
+/* banner */
+#carousel-example-generic{
+    background-size: 100% 100%;
+    position: relative;
+    margin-top: 110px;
+}
+
+/* action */
+.dtActive{
+    overflow: hidden;
+    padding: 24px 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+.dtActionCon{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.dtActionCon a{
+    width: 400px;
+    height: 200px;
+}
+.dtActionCon a img{
+    width: 100%;
+    height: 100%;
+}
+
+/* k1 sanbuqu */
+.k1{
+    height: 680px;
+}
+.k1 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.k1 a img{
+    width: 100%;
+    height: 100%;
+}
+
+/* imgBox1 */
+.imgBox1{
+    overflow: hidden;
+    padding-top: 25px;
+}
+.imgBox1Con{
+    height: 100%;
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.imgBox1Con a{
+    display: block;
+    width: 600px;
+    height: 600px;
+    margin-bottom: 20px;
+}
+.imgBox1Con a img{
+    width: 100%;
+    height: 100%;
+}
+
+/* footer */
+.dtFooter{
+    height: 260px;
+    background: #f3f3f3;
+    border-top: 1px solid #f9f9f9; 
+}
+.dtFooterCon{
+    height: 100%;
+    width: 1000px;
+    margin: 0 auto;
+}
+.dtFooterTop{
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #eaeaea; 
+}
+.fotList{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.fotList li{
+    float: left;
+}
+.fotList b{
+    display: block;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.fotList li p{
+    height: 30px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.fotList li p a{
+    color: black;
+    text-decoration: none;
+}
+.dtFooterBottom{
+    width: 100%;
+    height: 58px;
+    border-top: 1px solid #e1e1e1;
+    line-height: 58px;
+}
+.dtFooterBottom a{
+    color: black;
+    text-decoration: underline;
+}
+.tel{
+    float: right;
+}
+
+/* qq */
+.qq{
+    width: 40px;
+    height: 160px;
+    position: fixed;
+    top: 200px;
+    right: 0;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    background-image: url(../img/service_qq.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+    z-index: 200;
+}
+.qqBox{
+    width: 40px;
+    height: 160px;
+    position: fixed;
+    top: 200px;
+    right: 0;
+    z-index: 200;
+}
+.consulting{
+    width: 260px;
+    height: 80px;
+    background: white;
+    position: fixed;
+    top: 250px;
+    right: 0;
+    border: 1px solid #e1e1e1;
+    display: none;
+    z-index: 200;
+}
+.consulting a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: black;
+    text-align: center;
+}
+.consulting a img{
+    width: 80px;
+    height: 79px;
+    border-bottom: 1px solid #e1e1e1;
+    float: left;
+}
+.cslRight{
+    width: 170px;
+    height: 80px;
+    float: left;
+}
+.cslRight p{
+    font-size: 24px;
+    line-height: 50px;
+}
+
+/* login */
+.login{
+    width: 900px;
+    height: 100%;
+    background: #f2f2f2;
+    position: fixed;
+    top: 0;
+    right: -900px;
+    z-index: 100;
+    box-shadow: -1px 0px 5px 2px #666;
+}
+.back{
+    display: block;
+    height: 110px;
+    width: 170px;
+    background: #313131;
+    line-height: 110px;
+    text-align: center;
+}
+.back img{
+    width: 40px;
+    height: 40px;
+}
+.loginCon{
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    left: 225px;
+    top: 150px;;
+    padding: 0 25px;
+}
+.loginCon a{
+    text-decoration: none;
+    color: #404040;
+}
+.king{
+    display: block;
+    width: 55px;
+    height: 54px;
+    margin: 12px auto;
+
+}
+.loginForm input{
+    display: block;
+    width: 400px;
+    height: 45px;
+    line-height: 40px;
+    text-indent: 16px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+.loginBtn{
+    background: #313131;
+    color: #ccc;
+    border: 0;
+    font-size: 18px;
+}
+.idRegistered{
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.wx{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+.wx img{
+    width: 25px;
+    height: 25px;
+}
+.zc{
+    display: none;
+}
+.loginForm .yzm{
+    width: 250px;
+    height: 45px;
+    float: left;
+}
+.loginForm span{
+    float: right;
+    width: 145px;
+    height: 45px;
+    background: #313131;
+    line-height: 45px;
+    margin: 10px 0;
+    color: #ccc;
+    text-align: center;
+}
+.loginForm:nth-child(3){
+    margin-top: 5px;
+}
